@@ -11,12 +11,9 @@ class URL_SCR:
         print(self.bunrui)
 
 
-        # load_url = "https://news.goo.ne.jp/"
         html = requests.get(self.load_url)
         soup = BeautifulSoup(html.content, "html.parser")
 
-        # class_="gn-news-list"
-        # class_="list-title-topics"
 
         if "class_" in self.bunrui["dai_list"]:
             topic = soup.find(class_=self.bunrui["dai_text"])
