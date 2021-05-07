@@ -3,9 +3,6 @@ import csv
 
 list_url = ["Top Gun","Risky Business","Minority Report"]
 
-# ["Titanic","The Revenant","Inception"],["Training Day","Man on Fire","Flight"]]
-
-
 def file_scr(kug, fil, ty, list_url, ent_file, ent_path):
     path_file_txt = ent_path + "/" + ent_file + ".txt"
     path_file_csv = ent_path + "/" + ent_file + ".csv"
