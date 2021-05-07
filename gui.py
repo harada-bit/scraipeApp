@@ -14,13 +14,6 @@ import file_scr
 
 # load_url = "https://news.goo.ne.jp/"
 
-""" 
-やることリスト
-スクレイピング説明文（違法性、大分類と小分類の意味、検証の内容確認)
-
-"""
-
-
 
 def gui_crate():
 
