@@ -5,5 +5,5 @@
 
 
 GUIの操作によって、
-[scrape.py],[file.py]
+[scraping.py],[file_scr.py]
 が連動して動いてくれるようにしました。
